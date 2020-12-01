@@ -120,8 +120,8 @@
     "winston": "2.4.4"
   },
   "devDependencies": {
-    "@babel/core": "7.9.0",
-    "@babel/preset-env": "7.9.0",
+    "@babel/core": "7.12.9",
+    "@babel/preset-env": "7.12.7",
     "@cypress/debugging-proxy": "2.0.1",
     "@cypress/json-schemas": "5.35.1",
     "@cypress/sinon-chai": "1.1.0",
@@ -141,7 +141,7 @@
     "@types/chai-as-promised": "7.1.2",
     "@types/chrome": "0.0.101",
     "awesome-typescript-loader": "5.2.1",
-    "babel-loader": "8.1.0",
+    "babel-loader": "8.2.2",
     "body-parser": "1.19.0",
     "chai-as-promised": "7.1.1",
     "chai-subset": "1.6.0",

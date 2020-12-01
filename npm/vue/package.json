@@ -13,7 +13,7 @@
     "test": "yarn cy:run"
   },
   "dependencies": {
-    "@babel/plugin-transform-modules-commonjs": "7.10.4",
+    "@babel/plugin-transform-modules-commonjs": "7.12.1",
     "@cypress/code-coverage": "3.8.1",
     "@cypress/webpack-preprocessor": "*",
     "@intlify/vue-i18n-loader": "1.0.0",
@@ -24,10 +24,10 @@
     "unfetch": "4.1.0"
   },
   "devDependencies": {
-    "@babel/core": "7.9.0",
-    "@babel/preset-env": "7.9.5",
+    "@babel/core": "7.12.9",
+    "@babel/preset-env": "7.12.7",
     "axios": "0.19.2",
-    "babel-loader": "8.1.0",
+    "babel-loader": "8.2.2",
     "css-loader": "3.4.2",
     "cypress": "*",
     "eslint-plugin-vue": "^6.2.2",
