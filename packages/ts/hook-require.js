@@ -3,7 +3,7 @@
 // @ts-check
 
 const { createConfig } = require('@packages/snapshot')
-const env = process.env.CYPRESS_ENV === 'production' ? 'prod' : 'dev'
+const env = process.env.CYPRESS_INTERNAL_ENV === 'production' ? 'prod' : 'dev'
 const config = createConfig(env)
 
 const isDev = env === 'dev'
