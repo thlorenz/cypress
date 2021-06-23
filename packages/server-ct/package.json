@@ -4,7 +4,8 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "build-prod": "tsc",
+    "build-prod": "tooling_build-typescript",
+    "clean": "tooling_clean-typescript",
     "cypress:open": "node ./scripts/check-example.js && node ../../scripts/start.js --component-testing --project ${PWD}/crossword-example",
     "cypress:open:debug": "node ./scripts/check-example.js &&  node --inspect-brk ../../scripts/start.js --component-testing --project ${PWD}/crossword-example",
     "cypress:run": "node ./scripts/check-example.js && node ../../scripts/start.js --component-testing --run-project ${PWD}/crossword-example",
@@ -23,6 +24,7 @@
     "send": "0.17.1"
   },
   "devDependencies": {
+    "@scripts/tooling": "0.0.0-development",
     "chai": "^4.2.0",
     "expect": "^26.6.2",
     "mocha": "^8.1.3"

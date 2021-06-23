@@ -6,7 +6,8 @@
   "browser": "src/index.js",
   "scripts": {
     "build": "webpack",
-    "build-prod": "cross-env NODE_ENV=production yarn build && tsc",
+    "build-prod": "cross-env NODE_ENV=production yarn build && tooling_build-typescript",
+    "clean": "tooling_clean-typescript",
     "clean-deps": "rm -rf node_modules",
     "cypress:open": "ts-node ../../scripts/cypress.js open-ct --project ${PWD}",
     "cypress:run": "ts-node ../../scripts/cypress.js run-ct --project ${PWD}",
@@ -48,6 +49,7 @@
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@packages/driver": "0.0.0-development",
+    "@scripts/tooling": "0.0.0-development",
     "@types/node": "14.14.31",
     "@types/sockjs-client": "1.1.0",
     "babel-loader": "8.1.0",
